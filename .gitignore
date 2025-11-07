@@ -1,2 +1,37 @@
-.venv/
+# --- Python & Virtual Environments ---
+# Compiled Python files
 __pycache__/
+*.pyc
+
+# Virtual environment folders
+venv/
+*.env
+.env
+
+# --- Jupyter & Colab ---
+# Notebook checkpoints created automatically
+.ipynb_checkpoints/
+
+# --- ML / Hugging Face Outputs ---
+# The local cache for Weights & Biases
+wandb/
+
+# Checkpoints and trained models (these are large!)
+trained_model/
+eval_output/
+results/
+checkpoint-*/
+
+# Any manually saved model files
+*.pt
+*.bin
+
+# --- OS & IDE Specific ---
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
